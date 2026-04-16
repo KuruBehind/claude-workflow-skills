@@ -1,6 +1,8 @@
 # claude-common-skills
 
-Claude Code 공통 스킬셋. 서비스 그룹에 관계없이 재사용 가능한 범용 스킬 모음.
+Claude Code 공통 스킬셋. 기술 스택에 무관하게 어느 서비스 그룹에서도 재사용 가능한 범용 스킬 모음.
+
+> 기술 스택 종속 스킬 (Flutter, Firebase 등)은 각 서비스 그룹 워크스페이스의 `skills/`에서 관리.
 
 ## 사용 방법
 
@@ -16,7 +18,8 @@ git clone https://github.com/KuruBehind/claude-common-skills
 ## 공통 스킬 (`../claude-common-skills/`)
 - [브레인스토밍] `../claude-common-skills/brainstorming/SKILL.md`
 - [플랜 작성] `../claude-common-skills/writing-plans/SKILL.md`
-- ...
+- [정책서 작성] `../claude-common-skills/writing-policy/SKILL.md`
+- [서브에이전트] `../claude-common-skills/subagent-dev/SKILL.md`
 ```
 
 ## 스킬 목록
@@ -27,9 +30,6 @@ git clone https://github.com/KuruBehind/claude-common-skills
 | `writing-plans` | Step 0b 구현 플랜 작성 |
 | `writing-policy` | Step 7 기획 정책서 + 개발 독스 작성 |
 | `subagent-dev` | Step 2 태스크별 독립 에이전트 실행 |
-| `flutter-testing-apps` | Flutter Unit/Widget/Integration 테스트 전략 |
-| `flutter-building-forms` | Flutter 폼 유효성 검증 패턴 |
-| `firebase` | Firebase CLI/프로젝트 기반 설정 원칙 |
 
 ## 업데이트
 
